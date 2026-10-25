@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio pessoal e acadêmico de um estudante de tecnologia.">
+
+    <title>Meu Portfólio | Desenvolvedor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="#inicio" class="logo">MeuPortfólio<span>.</span></a>
+
+            <button id="menu-toggle" aria-label="Abrir menu"
+                    aria-expanded="false">☰</button>
+
+            <ul id="menu">
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#trajetoria">Trajetória</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+
+            <button id="tema" aria-label="Alternar tema">☾</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <p class="destaque">PORTFÓLIO PESSOAL E ACADÊMICO</p>
+            <h1>Olá, eu sou <span>Lucas Bispo da Cruz</span>.</h1>
+            <h2>Estudante de Técnico integrado em informática no Instituto Federal do Mato Grosso do Sul.</h2>
+            <p>
+                Aqui compartilho minha trajetória, meus projetos,
+                minhas experiências acadêmicas e meu aprendizado
+                na área da tecnologia.
+            </p>
+
+            <a href="#projetos" class="botao">Ver meus projetos</a>
+            <a href="#contato" class="botao secundario">Entrar em contato</a>
+        </section>
+
+        <section id="sobre" class="secao">
+            <h2>Sobre mim</h2>
+            <p>
+                Escreva aqui sobre sua formação, seus interesses,
+                seus objetivos profissionais e o que motivou você
+                a estudar tecnologia.
+            </p>
+        </section>
+
+        <section id="projetos" class="secao">
+            <h2>Meus projetos</h2>
+            <p>Alguns trabalhos que desenvolvi durante minha formação.</p>
+
+            <div class="grade-projetos">
+                <article class="card">
+                    <h3>Projeto 01 — Site pessoal</h3>
+                    <p>
+                        Site desenvolvido com HTML, CSS e JavaScript
+                        para apresentar informações e trabalhos.
+                    </p>
+                    <p class="tecnologias">HTML · CSS · JavaScript</p>
+                    <a href="https://github.com/" target="_blank"
+                       rel="noopener noreferrer">Ver código</a>
+                </article>
+
+                <article class="card">
+                    <h3>Projeto 02 — Sistema web</h3>
+                    <p>
+                        Descreva aqui um sistema, sua finalidade
+                        e o problema que ele busca resolver.
+                    </p>
+                    <p class="tecnologias">JavaScript · Node.js</p>
+                    <a href="#contato">Saiba mais</a>
+                </article>
+
+                <article class="card">
+                    <h3>Projeto 03 — Aplicação acadêmica</h3>
+                    <p>
+                        Apresente um trabalho realizado em sala,
+                        em uma disciplina ou em um projeto de curso.
+                    </p>
+                    <p class="tecnologias">Tecnologias utilizadas</p>
+                    <a href="#contato">Saiba mais</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="trajetoria" class="secao">
+            <h2>Trajetória acadêmica</h2>
+
+            <article class="item-trajetoria">
+                <p class="data">2026</p>
+                <h3>Feira ou evento de tecnologia</h3>
+                <p>
+                    Descreva sua participação, o projeto apresentado
+                    e o que aprendeu com a experiência.
+                </p>
+            </article>
+
+            <article class="item-trajetoria">
+                <p class="data">2025–2026</p>
+                <h3>Formação acadêmica</h3>
+                <p>
+                    Nome do curso, instituição e principais
+                    conhecimentos desenvolvidos.
+                </p>
+            </article>
+        </section>
+
+        <section id="habilidades" class="secao">
+            <h2>Habilidades</h2>
+            <p>Algumas tecnologias e ferramentas que estudo e utilizo.</p>
+
+            <div class="lista-habilidades">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>Node.js</span>
+                <span>SQL</span>
+                <span>Git e GitHub</span>
+            </div>
+        </section>
+
+        <section id="contato" class="secao">
+            <h2>Vamos conversar?</h2>
+            <p>
+                Para oportunidades, projetos ou assuntos acadêmicos,
+                entre em contato comigo.
+            </p>
+
+            <a class="botao"
+               href="mailto:seuemail@exemplo.com">
+                Enviar e-mail
+            </a>
+
+            <p>
+                <a href="https://github.com/" target="_blank"
+                   rel="noopener noreferrer">GitHub</a>
+                ·
+                <a href="https://www.linkedin.com/" target="_blank"
+                   rel="noopener noreferrer">LinkedIn</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="ano"></span> Seu Nome. Desenvolvido com HTML, CSS e JavaScript.</p>
+    </footer>
+
+</body>
+</html>
