@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
+
 <body>
 
     <header>
         <nav class="navbar">
             <a href="#inicio" class="logo">MeuPortfólio<span>.</span></a>
 
-            <button id="menu-toggle" aria-label="Abrir menu"
-                    aria-expanded="false">☰</button>
+            <button id="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
 
             <ul id="menu">
                 <li><a href="#sobre">Sobre mim</a></li>
@@ -45,50 +45,84 @@
             <a href="#projetos" class="botao">Ver meus projetos</a>
             <a href="#contato" class="botao secundario">Entrar em contato</a>
         </section>
-
         <section id="sobre" class="secao">
-            <h2>Sobre mim</h2>
-            <p>
-                Escreva aqui sobre sua formação, seus interesses,
-                seus objetivos profissionais e o que motivou você
-                a estudar tecnologia.
-            </p>
-        </section>
+            <div class="sobre-container">
 
+                <div class="sobre-foto">
+                    <img src="imgs/perfil.jpeg" alt="Minha foto de perfil">
+                </div>
+
+                <div class="sobre-texto">
+                    <h2>Sobre mim</h2>
+
+                    <p>
+                        Sou estudante de Técnico Integrado em Informática
+                        no Instituto Federal de Mato Grosso do Sul.
+                        Tenho interesse em desenvolvimento web, tecnologia
+                        e criação de projetos acadêmicos.
+                    </p>
+                </div>
+
+            </div>
+        </section>
         <section id="projetos" class="secao">
             <h2>Meus projetos</h2>
-            <p>Alguns trabalhos que desenvolvi durante minha formação.</p>
+            <p>Alguns trabalhos que desenvolvi até agora no IFMS.</p>
 
             <div class="grade-projetos">
                 <article class="card">
-                    <h3>Projeto 01 — Site pessoal</h3>
+                    <img class="imagem-projeto" src="imgs/Projeto-LPDM.jpeg" loading="lazy">
+
+                    <h3>Cadastro de Alunos</h3>
+
                     <p>
-                        Site desenvolvido com HTML, CSS e JavaScript
-                        para apresentar informações e trabalhos.
+                        Projeto web desenvolvido para cadastrar alunos,
+                        de uma forma eficiente e fácil. Somente para dispositivos móveis.
                     </p>
-                    <p class="tecnologias">HTML · CSS · JavaScript</p>
-                    <a href="https://github.com/" target="_blank"
-                       rel="noopener noreferrer">Ver código</a>
+
+                    <p class="tecnologias">
+                      StyleSheet · JavaScript · React · SQlite
+                    </p>
+
+                    <a href="https://github.com/ZePingusso/Projeto-LPDM" target="_blank" rel="noopener noreferrer">
+                        Ver código no GitHub
+                    </a>
                 </article>
 
                 <article class="card">
-                    <h3>Projeto 02 — Sistema web</h3>
+                    <img class="imagem-projeto" src="imgs/Portfolio.png"loading="lazy">
+
+                    <h3>Portfólio de NFTs</h3>
+
                     <p>
-                        Descreva aqui um sistema, sua finalidade
-                        e o problema que ele busca resolver.
+                        Projeto web de uma loja de NFTs criadas por inteligência artificial.
                     </p>
-                    <p class="tecnologias">JavaScript · Node.js</p>
-                    <a href="#contato">Saiba mais</a>
+
+                    <p class="tecnologias">
+                      HTML · JavaScript · CSS 
+                    </p>
+
+                    <a href="https://github.com/enriquecharao-ctrl/trabalho-fabio" target="_blank" rel="noopener noreferrer">
+                        Ver código no GitHub
+                    </a>
                 </article>
 
                 <article class="card">
-                    <h3>Projeto 03 — Aplicação acadêmica</h3>
+                    <img class="imagem-projeto" src="imgs/blogmens.png"loading="lazy">
+
+                    <h3>BlogMens</h3>
+
                     <p>
-                        Apresente um trabalho realizado em sala,
-                        em uma disciplina ou em um projeto de curso.
+                        Projeto web de um blog, onde homens compartilham publicacões.
                     </p>
-                    <p class="tecnologias">Tecnologias utilizadas</p>
-                    <a href="#contato">Saiba mais</a>
+
+                    <p class="tecnologias">
+                      HTML · JavaScript · CSS 
+                    </p>
+
+                    <a href="https://github.com/ZePingusso/Frontattv2" target="_blank" rel="noopener noreferrer">
+                        Ver código no GitHub
+                    </a>
                 </article>
             </div>
         </section>
@@ -97,20 +131,28 @@
             <h2>Trajetória acadêmica</h2>
 
             <article class="item-trajetoria">
-                <p class="data">2026</p>
-                <h3>Feira ou evento de tecnologia</h3>
+                <p class="data">2025</p>
+                <img class="imagem-projeto" src="imgs/projeto (1).jpeg"loading="lazy">
+                <img class="imagem-projeto" src="imgs/projeto (2).jpeg"loading="lazy">
+                <img class="imagem-projeto" src="imgs/projeto (3).jpeg"loading="lazy">
+                <h3>FECINOVA</h3>
                 <p>
-                    Descreva sua participação, o projeto apresentado
-                    e o que aprendeu com a experiência.
+                    Apresentei um projeto como bolsista. Um projeto onde um jogo era feito do zero, um jogo de cartas envolvendo diversos
+                    personagens importantes para a vida real, como por exemplo, Karl Marx. Diversos personagens
+                    socialmente importantes e impactantes.
+                </p>
+                <p>
+                    Projeto do qual convalidei como TCC.
                 </p>
             </article>
 
             <article class="item-trajetoria">
-                <p class="data">2025–2026</p>
+                <p class="data">2024–2026</p>
                 <h3>Formação acadêmica</h3>
                 <p>
-                    Nome do curso, instituição e principais
-                    conhecimentos desenvolvidos.
+                    Realizo o curso de técnico informática no Instituto Federal do Mato Grosso do Sul,
+                    e desenvolvi diversos conhecimentos sobre HTML, CSS, JavaScript e GitHub.
+                    Além das matérias comuns de um ensino médio sem técnico integrado.
                 </p>
             </article>
         </section>
@@ -126,34 +168,33 @@
                 <span>Node.js</span>
                 <span>SQL</span>
                 <span>Git e GitHub</span>
+                <span>React Native</span>
+                <span>React</span>
+                <span>Next</span>
+                <span>Postgresql</span>
+                <span>MySQL</span>
             </div>
         </section>
 
         <section id="contato" class="secao">
-            <h2>Vamos conversar?</h2>
-            <p>
-                Para oportunidades, projetos ou assuntos acadêmicos,
-                entre em contato comigo.
-            </p>
+            <h2>Entre em contato!</h2>
 
-            <a class="botao"
-               href="mailto:seuemail@exemplo.com">
+            <a class="botao" href="mailto:lucas.cruz4@estudante.ifms.edu.br">
                 Enviar e-mail
             </a>
 
             <p>
-                <a href="https://github.com/" target="_blank"
-                   rel="noopener noreferrer">GitHub</a>
+                <a href="https://github.com/ZePingusso" target="_blank" rel="noopener noreferrer">GitHub</a>
                 ·
-                <a href="https://www.linkedin.com/" target="_blank"
-                   rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/lucas-bispo-1529a8426/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </p>
         </section>
     </main>
 
     <footer>
-        <p>© <span id="ano"></span> Seu Nome. Desenvolvido com HTML, CSS e JavaScript.</p>
+        <p>© <span id="ano">2026</span> Lucas Bispo da Cruz. Desenvolvido com HTML, CSS e JavaScript.</p>
     </footer>
 
 </body>
+
 </html>
